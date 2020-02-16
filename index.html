@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <header>
+    <meta charset="utf-8">
+    <title>Endangered Animals List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+    <h1>Welcome to the Endangered Animal App!</h1>
+  </header><br><br>
+  <body>
+    <form id="new-item-form" align="center">
+      <div id="form-wrapper">
+        <div class="form-item" >
+          <label for="name" class="primary">Name</label><br>
+          <input type="text" id="name" required/>
+        </div>
+<br>
+        <div class="form-item" >
+          <label for="species" class="primary">Species</label><br>
+          <input type="text" id="species" required/>
+        </div>
+<br>
+        <div class="form-item" >
+          <label for="continent" class="primary">Continent</label><br>
+          <select id="continent">
+            <option value="" disabled selected></option>
+            <option value="Europe">Europe</option>
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+            <option value="North & South America">North & South America</option>
+          </select>
+        </div>
+      </div>
+  <br>
+
+
+  <!-- EXTENSIONS -->
+  <p class="primary">Select conservation status</p>
+
+  <div>
+    <input type="radio" id="critical" name="status" value="Critically Endangered"
+           checked>
+    <label for="critical" >Critically Endangered</label>
+  </div>
+
+  <div>
+    <input type="radio" id="endangered" name="status" value="Endangered">
+    <label for="endangered">Endangered</label>
+  </div>
+
+  <div>
+    <input type="radio" id="vulnerable" name="status" value="Vulnerable">
+    <label for="vulnerable">Vulnerable</label>
+  </div>
+  <!-- END EXTENSIONS -->
+
+
+  <br>
+      <input id="add-button" type="submit" value="Add this animal"/>
+
+    </form>
+<br>
+<button id="delete-all" align="center">Delete All</button>
+<hr><br>
+    <h2>Endangered Animals List</h2>
+    <ul position="center" id="animal-list"></ul>
+  </body>
+</html>

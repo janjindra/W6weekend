@@ -1,0 +1,87 @@
+body {
+  font-family: Palatino;
+  background-color: #ECEBE8;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: sans-serif;
+  background-color: #F9E3B2;
+  text-align: center;
+}
+
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  background-color: LightGrey;
+  text-align: center;
+}
+
+#name {
+  position: center;
+  width: 250px;
+  padding: 0px;
+  font-size: 20pt;
+  background: LightGrey;
+}
+
+#species {
+  position: center;
+  width: 250px;
+  padding: 0px;
+  font-size: 20pt;
+  background: LightGrey;
+}
+
+.primary {
+font-style: normal;
+font-weight: bold;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+
+#continent {
+  overflow: hidden;
+  width: 250px;
+  background: LightGrey;
+  font-size: 20px;
+}
+
+#add-button {
+  font-size: 16px;
+  color: Black;
+  background: #F9E3B2;
+  border: 1px solid #ddd;
+  margin: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin:auto;
+  display:block;
+}
+
+#delete-all {
+  font-size: 16px;
+  color: Black;
+  background: #F9E3B2;
+  border: 1px solid #ddd;
+  margin: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin:auto;
+  display:block;
+}
+
+
+header {
+background: #E5B753;
+padding: 10px;
+text-align: center;
+}
